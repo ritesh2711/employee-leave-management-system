@@ -1,0 +1,364 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-section input,
+.filter-section select,
+.filter-section button {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.selection-container {
+  text-align: center;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title */
+.login-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Form Fields */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Submit Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Error/Message Styling */
+.error {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: #28a745;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-container h1 {
+    font-size: 20px;
+  }
+}
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Admin Container Styles */
+.admin-container {
+  background-color: #007bff; /* Blue background for admin */
+  color: #fff; /* White text */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Title Styling */
+.admin-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff; /* White text for title */
+}
+
+/* Label Styling */
+.admin-container label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #e3f2fd; /* Light blue text */
+}
+
+/* Input Fields */
+.admin-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e3f2fd; /* Light blue background */
+  color: #007bff; /* Blue text */
+  box-sizing: border-box;
+}
+
+/* Submit Button */
+.admin-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* White text */
+  background-color: #0056b3; /* Darker blue for button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button Hover Effect */
+.admin-container button:hover {
+  background-color: #003d80; /* Even darker blue */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .admin-container {
+    padding: 20px;
+  }
+
+  .admin-container h1 {
+    font-size: 20px;
+  }
+}
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Employee Login Container */
+.login-container {
+  background-color: #28a745; /* Green background for employee module */
+  color: #fff; /* White text for contrast */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Title Styling */
+.login-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff; /* White for title text */
+}
+
+/* Label Styling */
+.login-container label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #eaf8ea; /* Light green label text */
+}
+
+/* Input Fields */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eaf8ea; /* Light green background */
+  color: #28a745; /* Green text */
+  box-sizing: border-box;
+}
+
+/* Button Styling */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* White text for contrast */
+  background-color: #1e7e34; /* Dark green button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button Hover Effect */
+.login-container button:hover {
+  background-color: #145822; /* Darker green */
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .login-container {
+      padding: 20px;
+  }
+
+  .login-container h1 {
+      font-size: 20px;
+  }
+}
